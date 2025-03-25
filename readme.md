@@ -9,6 +9,8 @@ This project is a lightweight, modular web server built with Node.js. It demonst
 - Dynamic MIME type handling for serving static and dynamic files.
 - Modular code organization with dedicated utilities for logging and file serving.
 
+---
+
 ## 🛠️ Features
 
 - **Static File Serving**: Supports serving files (CSS, JavaScript, images, etc.) from a `public` directory.
@@ -17,6 +19,8 @@ This project is a lightweight, modular web server built with Node.js. It demonst
 - **404 Handling**: Serves a custom `404.html` page for invalid routes.
 - **Redirects**: Handles specific redirects with status code `301`.
 - **MIME Type Support**: Supports a wide range of MIME types, including `text/html`, `application/json`, and various image formats.
+
+---
 
 ## 🗂️ Project Structure
 
@@ -34,6 +38,8 @@ This project is a lightweight, modular web server built with Node.js. It demonst
      ├── logEvents.js     # Logging utility
      └── serveFile.js     # File serving utility
 ```
+
+---
 
 ## 🛠️ Installation
 
@@ -62,8 +68,12 @@ This project is a lightweight, modular web server built with Node.js. It demonst
    http://localhost:3500
    ```
 
+---
+
 ## ⚙️ Environment Variables
 - `PORT`: Define the port number for the server. Defaults to `3500` if not specified.
+
+---
 
 ## 📋 How It Works
 
@@ -82,12 +92,22 @@ This project is a lightweight, modular web server built with Node.js. It demonst
 - Errors encountered while serving files are logged in `errorLog.txt`.
 - A generic `500 Internal Server Error` response is sent if file serving fails.
 
+---
+
 ## 📚 Learn More
 - [Node.js latest documentation](https://nodejs.org/docs/latest/api/)
 - [Introduction to Node.js](https://nodejs.org/es/learn/getting-started/introduction-to-nodejs)
 - [Nodemon project website](https://nodemon.io/)
 - [date-fns official documentation](https://date-fns.org/docs/Getting-Started)
 - [UUID repository](https://github.com/uuidjs/uuid#readme)
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
 
 ## 🧑‍💻 Developer:
 
